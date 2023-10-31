@@ -201,7 +201,7 @@ Public Function QuickEquip(hwnd As Long, num As Integer)
     ' 关闭背包
     dm.KeyPress vbKeyO
     ' 再次激活窗口
-    Call dm.SetWindowState(hwnd300, 1)
+    ' Call dm.SetWindowState(hwnd300, 1)
 End Function
 
 ' 快速下装备
